@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <title>ARRAY CHARMER</title>
+</head>
+<body class="bg-gray-50">
+  <!-- Header -->
+  <div class="w-full h-[50px] bg-green-500 flex items-center justify-center">
+    <h1 class="text-xl font-bold text-white">ARRAY CHARMER</h1>
+  </div>
+
+  <!-- Array display -->
+  <div class="w-full h-[60px] bg-green-200 flex items-center px-4 space-x-2">
+    <span class="font-semibold">Array:</span>
+    <p id="arrTxt" class="font-mono"></p>
+  </div>
+
+  <!-- Body -->
+  <div class="w-full h-[calc(100vh-110px)] flex flex-row">
+    <!-- Sidebar -->
+    <div class="w-[270px] h-full flex flex-col items-center justify-start py-[30px] space-y-4 bg-gray-100 shadow-md">
+      <button id="randomize" class="w-[160px] h-[40px] bg-purple-600 text-white rounded-lg hover:bg-purple-800 border-[1.5px] border-black">Randomize Array</button>
+      <button id="sel" class="w-[160px] h-[40px] bg-yellow-300 rounded-lg hover:bg-yellow-400 border-[1.5px] border-black">Selection Sort</button>
+      <button id="bubble" class="w-[160px] h-[40px] bg-yellow-300 rounded-lg hover:bg-yellow-400 border-[1.5px] border-black">Bubble Sort</button>
+      <button id="insertion" class="w-[160px] h-[40px] bg-yellow-300 rounded-lg hover:bg-yellow-400 border-[1.5px] border-black">Insertion Sort</button>
+      <button id="merge" class="w-[160px] h-[40px] bg-yellow-300 rounded-lg hover:bg-yellow-400 border-[1.5px] border-black">Merge Sort</button>
+      <button id="quick" class="w-[160px] h-[40px] bg-yellow-300 rounded-lg hover:bg-yellow-400 border-[1.5px] border-black">Quick Sort</button>
+      <button id="radix" class="w-[160px] h-[40px] bg-yellow-300 rounded-lg hover:bg-yellow-400 border-[1.5px] border-black">Radix Sort</button>
+    </div>
+
+    <!-- Visualization Area -->
+    <div id="vis" class="w-full h-full flex flex-row items-end justify-center space-x-[15px] px-[20px] overflow-x-auto"></div>
+  </div>
+
+  <script src="./scripts.js"></script>
+</body>
+</html>

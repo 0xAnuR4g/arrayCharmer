@@ -34,4 +34,4 @@ It allows users to **visualize popular sorting algorithms** in real-time with dy
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/yourusername/array-charmer.git
+[git clone https://github.com/0xAnuR4g/arrayCharmer.git](https://github.com/0xAnuR4g/arrayCharmer)

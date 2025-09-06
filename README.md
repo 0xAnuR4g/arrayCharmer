@@ -23,7 +23,11 @@ It allows users to **visualize popular sorting algorithms** in real-time with dy
 ---
 
 ## Screen Recording 📸
-[Watch Demo](https://youtu.be/9FrVCeMq9Mo)
+<video width="400" controls>
+  <source src="arrayCharmer_recording.webm" type="video/webm">
+  Your browser does not support the video tag.
+</video>
+
 
 
 ---
